@@ -1,0 +1,145 @@
+.box-one{
+    display: flex;
+    // border: 1px solid;
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        // border: 1px solid;
+        width: 100%;
+        padding: 12px;
+        .logo{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            img{
+                position: absolute;
+                left: 123px;
+                // border: 1px solid;
+            }
+            h1{
+                position: absolute;
+                width: 23px;
+                height: 34px;
+                left: 133px;
+                top: 42px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 34px;
+                /* identical to box height, or 142% */
+                
+                letter-spacing: 0.5px;
+                
+                color: white;
+                
+            }
+
+            h3{
+                position: absolute;
+                left: 175px;
+                top: 45px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 26px;
+                /* identical to box height, or 108% */
+                
+                letter-spacing: 0.5px;
+                
+                color: #4BA586;
+            }
+        }
+
+        ul{
+            display: flex;
+            align-items: flex-end;
+            gap: 60px;
+            // border: 1px solid;
+            padding-top: 50px;            
+            li{
+                list-style-type: circle;
+                // border: 1px solid;
+                color: white;
+                list-style-position: inside;
+                &:hover{
+                    list-style-type: disc;
+                    color: #4BA586;
+                    transition: 0.5s;
+                }
+                a{
+                    position: relative;
+                    top: -20px;
+                    left: -50px;
+                    text-decoration: none;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 26px;
+                    letter-spacing: 0.5px;
+                    
+                    color: #8E8E8E;
+                    flex: none;
+                    order: 1;
+                    flex-grow: 0;
+
+
+                    &:hover{
+                        color: #4BA586;
+                        list-style-type: disc;
+                        transition: 0.5s;
+                    }
+                }
+            }
+        }
+
+        .signup{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            // border: 1px solid red;
+            width: 300px;
+            gap: 100px;
+            .signin{
+                // border: 1px solid;
+                text-decoration: none;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.0025em;
+                color: #69B99D;
+                flex: none;
+                order: 0;
+                flex-grow: 0;
+            }
+
+            .login{
+                // border: 1px solid red;      
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                // padding: 16px 48px 15px;
+                gap: 10px;
+                text-decoration: none;
+                // position: absolute;
+                width: 139px;
+                height: 55px;
+                left: 1727px;
+                top: 32px;
+                color: white;
+                background-color: #69B99D;
+            }
+        }
+    }
+}

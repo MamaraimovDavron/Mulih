@@ -1,3 +1,126 @@
+.box-one {
+  display: flex;
+}
+.box-one nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  padding: 12px;
+}
+.box-one nav .logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.box-one nav .logo img {
+  position: absolute;
+  left: 123px;
+}
+.box-one nav .logo h1 {
+  position: absolute;
+  width: 23px;
+  height: 34px;
+  left: 133px;
+  top: 42px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 34px;
+  /* identical to box height, or 142% */
+  letter-spacing: 0.5px;
+  color: white;
+}
+.box-one nav .logo h3 {
+  position: absolute;
+  left: 175px;
+  top: 45px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 26px;
+  /* identical to box height, or 108% */
+  letter-spacing: 0.5px;
+  color: #4BA586;
+}
+.box-one nav ul {
+  display: flex;
+  align-items: flex-end;
+  gap: 60px;
+  padding-top: 50px;
+}
+.box-one nav ul li {
+  list-style-type: circle;
+  color: white;
+  list-style-position: inside;
+}
+.box-one nav ul li:hover {
+  list-style-type: disc;
+  color: #4BA586;
+  transition: 0.5s;
+}
+.box-one nav ul li a {
+  position: relative;
+  top: -20px;
+  left: -50px;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  color: #8E8E8E;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.box-one nav ul li a:hover {
+  color: #4BA586;
+  list-style-type: disc;
+  transition: 0.5s;
+}
+.box-one nav .signup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  gap: 100px;
+}
+.box-one nav .signup .signin {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.0025em;
+  color: #69B99D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.box-one nav .signup .login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  width: 139px;
+  height: 55px;
+  left: 1727px;
+  top: 32px;
+  color: white;
+  background-color: #69B99D;
+}
+
 * {
   padding: 0;
   margin: 0;
