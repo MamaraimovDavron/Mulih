@@ -1,5 +1,6 @@
 .box-one{
     display: flex;
+    flex-direction: column;
     // border: 1px solid;
     nav{
         display: flex;
@@ -139,6 +140,368 @@
                 top: 32px;
                 color: white;
                 background-color: #69B99D;
+            }
+        }
+    }
+
+    .main-side{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        .left-side{
+            display: flex;
+            flex-direction: column;
+            .real-estate{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 24px;
+                gap: 10px;
+                
+                position: absolute;
+                width: 162px;
+                height: 50px;
+                left: 124px;
+                top: 152px;
+                
+                background-color: #F8F9FE;
+                h3{
+                    width: 114px;
+                    height: 26px;
+                    
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 26px;
+                    /* identical to box height, or 144% */
+                    
+                    letter-spacing: 0.5px;
+                    
+                    color: #69B99D;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+            }
+
+            .text-block{
+                position: absolute;
+                width: 605px;
+                height: 148px;
+                left: 124px;
+                top: 234px;
+                
+                font-family: 'Rubik';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 64px;
+                line-height: 74px;
+                /* or 116% */
+                
+                letter-spacing: 0.0025em;
+                
+                /* Tittle */
+                
+                color: #1F2744;
+            }
+
+            .paragraph{
+                position: absolute;
+                width: 502px;
+                height: 48px;
+                left: 124px;
+                top: 406px;
+                
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                /* or 150% */
+                
+                letter-spacing: 0.0025em;
+                
+                color: #73788C;
+            }
+
+           .location-block{
+            display: flex;
+            flex-direction: column;
+
+            .buyRent-box{
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+                .buy-box{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px 32px;
+                    gap: 10px;
+                    // border: 1px solid;
+                    position: absolute;
+                    width: 109px;
+                    height: 56px;
+                    left: 124px;
+                    top: 518px;
+                    
+                    background-color: #F5F5F5;
+
+                    &:hover{
+                        background-color: white;
+                        transition: 0.5s;
+                    }
+
+                    &:hover h3{
+                        transition: 0.5s;
+                        color: #4BA586;
+                    }
+                    h3{
+                        width: 45px;
+                        height: 32px;
+                        
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 32px;
+                        letter-spacing: 0.0025em;
+                        
+                        color: #8E8E8E;
+                        
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+
+                        
+                    }
+                }
+
+                .rent-box{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px 32px;
+                    gap: 10px;
+                    
+                    position: absolute;
+                    width: 119px;
+                    height: 56px;
+                    left: 233px;
+                    top: 518px;
+                    
+                    background-color: #F5F5F5;
+
+                    &:hover{
+                        background-color: white;
+                        transition: 0.5s;
+                    }
+
+                    &:hover h3{
+                        transition: 0.5s;
+                        color: #4BA586;
+                    }
+                    h3{
+                        width: 55px;
+                        height: 32px;
+                        
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 32px;
+                        /* identical to box height, or 133% */
+                        
+                        letter-spacing: 0.0025em;
+                        
+                        color: #A6A6A6;
+                        
+                        
+                        /* Inside auto layout */
+                        
+                        flex: none;
+                        order: 0;
+                        flex-grow: 0;
+                    }
+                }
+            }
+
+            .location-box{
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                position: absolute;
+                width: 751px;
+                height: 124px;
+                left: 124px;
+                top: 574px;
+                
+                background-color: #FEFEFF;
+                /* Shadow */
+                
+                box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+                .location{
+                    display: flex;
+                    flex-direction: column;
+                    h3{
+                        // position: absolute;
+                        width: 77px;
+                        height: 26px;
+                        // left: 156px;
+                        // top: 606px;
+                        
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        /* identical to box height, or 144% */
+                        
+                        letter-spacing: 0.0025em;
+                        
+                        /* Tittle */
+                        
+                        color: #1F2744;
+                    }
+
+                    h4{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        /* identical to box height, or 144% */
+                        
+                        letter-spacing: 0.0025em;
+                        cursor: pointer;
+                        color: #A6A6A6;
+                    }
+                }
+
+                .type{
+                    display: flex;
+                    flex-direction: column;
+                    h3{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        /* identical to box height, or 144% */
+                        
+                        letter-spacing: 0.0025em;
+                        
+                        /* Tittle */
+                        
+                        color: #1F2744;
+                    }
+
+                    h4{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        /* identical to box height, or 144% */
+                        
+                        letter-spacing: 0.0025em;
+                        cursor: pointer;
+                        color: #A6A6A6;
+                        
+                    }
+                }
+
+                .price-range{
+                    display: flex;
+                    flex-direction: column;
+                    h3{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        letter-spacing: 0.0025em;
+                        
+                        color: #1F2744;
+                    }
+
+                    h4{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 26px;
+                        /* identical to box height, or 144% */
+                        
+                        letter-spacing: 0.0025em;
+                        cursor: pointer;
+                        color: #A6A6A6;
+                        
+                    }
+                }
+
+                button{
+                    border: none;       
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 18px 48px;
+                    gap: 8px;
+                    
+                    // position: absolute;
+                    width: 153px;
+                    height: 60px;
+                    // left: 690px;
+                    // top: 606px;
+                    
+                    background-color: #69B99D;
+                    box-shadow: 0px 0px 65px rgba(105, 185, 157, 0.32);
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height, or 150% */
+                    
+                    letter-spacing: 0.0025em;
+                    
+                    color: #FFFFFF;
+                    
+                    
+                    /* Inside auto layout */
+                    
+                    flex: none;
+                    order: 0;
+                    flex-grow: 0;
+                }
+            }
+           }
+
+
+        }
+
+        .right-side{
+            display: flex;
+            .img-block{
+                position: absolute;
+                width: 806px;
+                height: 761px;
+                left: 948px;
+                top: 45px;
+                
+                background: url(.png);
+                mix-blend-mode: normal;
+                transform: matrix(-1, 0, 0, 1, 0, 0);
             }
         }
     }
