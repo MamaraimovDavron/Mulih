@@ -643,6 +643,64 @@
   flex-grow: 0;
 }
 
+.container--three {
+  background-color: #F5F5F5;
+  height: 954px;
+  width: 100%;
+  padding: 124px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.container--three .our-advante {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 179px;
+  height: 50px;
+  background: #F8F9FE;
+}
+.container--three .our-advante h3 {
+  width: 131px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.5px;
+  color: #69B99D;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.container--three h1 {
+  width: 436px;
+  height: 112px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0.5px;
+  color: #054457;
+}
+.container--three .grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-self: center;
+  gap: 32px;
+}
+.container--three .grid .grid-item {
+  width: 376px;
+  height: 268px;
+  padding: 20px;
+  background-color: #69B99D;
+}
+
 * {
   padding: 0;
   margin: 0;
