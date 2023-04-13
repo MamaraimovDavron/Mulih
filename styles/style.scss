@@ -14,3 +14,10 @@ body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+.main--container{
+    max-width: 1440px;
+    border: 1px solid;
+    margin: auto;
+    height: 100vh;
+}
