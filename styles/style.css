@@ -1,9 +1,14 @@
+.container--one {
+  background-color: #F5f5f5;
+  height: 806px;
+}
 .container--one nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 30px 124px;
+  z-index: 1;
 }
 .container--one nav .logo {
   display: flex;
@@ -11,6 +16,7 @@
   justify-content: center;
   align-items: flex-end;
   position: relative;
+  z-index: 1;
   gap: 10px;
 }
 .container--one nav .logo .circle {
@@ -50,6 +56,7 @@
   justify-content: space-between;
   align-items: flex-end;
   gap: 50px;
+  z-index: 1;
   height: 50px;
 }
 .container--one nav .menu li {
@@ -125,6 +132,311 @@
   order: 0;
   flex-grow: 0;
 }
+.container--one .main-box {
+  display: flex;
+  flex-direction: row;
+}
+.container--one .main-box .left-box {
+  display: flex;
+  padding: 30px 124px;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 1;
+}
+.container--one .main-box .left-box .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 24px;
+  gap: 10px;
+  width: 162px;
+  height: 50px;
+  background-color: #F8F9FE;
+}
+.container--one .main-box .left-box .title h3 {
+  width: 114px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  letter-spacing: 0.5px;
+  color: #69B99D;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.container--one .main-box .left-box h1 {
+  width: 605px;
+  height: 148px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: 0.0025em;
+  color: #1F2744;
+}
+.container--one .main-box .left-box p {
+  width: 502px;
+  height: 48px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+  letter-spacing: 0.0025em;
+  color: #73788C;
+}
+.container--one .main-box .left-box .search-box {
+  display: flex;
+  flex-direction: column;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box .buy {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+  width: 109px;
+  height: 56px;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box .buy:hover {
+  background-color: #FFFFFF;
+  transition: 0.5s;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box .buy h3 {
+  width: 45px;
+  height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #A6A6A6;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box .buy h3:hover {
+  color: #4BA586;
+  transition: 0.5s;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box .rent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 10px;
+  width: 119px;
+  height: 56px;
+  background-color: #F5F5F5;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box .rent:hover {
+  background-color: #FFFFFF;
+  transition: 0.5s;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box .rent h3 {
+  width: 55px;
+  height: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.0025em;
+  color: #A6A6A6;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.container--one .main-box .left-box .search-box .buy-rent-box .rent h3:hover {
+  color: #4BA586;
+  transition: 0.5s;
+}
+.container--one .main-box .left-box .search-box .location-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 751px;
+  height: 124px;
+  background-color: #FEFEFF;
+  box-shadow: 35px 35px 65px rgba(146, 106, 120, 0.16);
+}
+.container--one .main-box .left-box .search-box .location-box .location {
+  display: flex;
+  flex-direction: column;
+}
+.container--one .main-box .left-box .search-box .location-box .location h3 {
+  width: 77px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  letter-spacing: 0.0025em;
+  /* Tittle */
+  color: #1F2744;
+}
+.container--one .main-box .left-box .search-box .location-box .location .location-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+.container--one .main-box .left-box .search-box .location-box .location .location-inside h3 {
+  width: 165px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.0025em;
+  color: #A6A6A6;
+}
+.container--one .main-box .left-box .search-box .location-box .location .location-inside a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.container--one .main-box .left-box .search-box .location-box .type {
+  display: flex;
+  flex-direction: column;
+}
+.container--one .main-box .left-box .search-box .location-box .type h3 {
+  width: 44px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.0025em;
+  color: #1F2744;
+}
+.container--one .main-box .left-box .search-box .location-box .type .type-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+.container--one .main-box .left-box .search-box .location-box .type .type-inside h3 {
+  width: 54px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  letter-spacing: 0.0025em;
+  color: #A6A6A6;
+}
+.container--one .main-box .left-box .search-box .location-box .type .type-inside a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.container--one .main-box .left-box .search-box .location-box .price-range {
+  display: flex;
+  flex-direction: column;
+}
+.container--one .main-box .left-box .search-box .location-box .price-range h3 {
+  width: 107px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.0025em;
+  color: #1F2744;
+}
+.container--one .main-box .left-box .search-box .location-box .price-range .price-range-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 10px;
+}
+.container--one .main-box .left-box .search-box .location-box .price-range .price-range-inside h3 {
+  width: 99px;
+  height: 26px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: 0.0025em;
+  color: #A6A6A6;
+}
+.container--one .main-box .left-box .search-box .location-box .price-range .price-range-inside a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+.container--one .main-box .left-box .search-box .location-box .search-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 48px;
+  gap: 8px;
+  width: 153px;
+  height: 60px;
+  cursor: pointer;
+  background-color: #69B99D;
+  box-shadow: 0px 0px 65px rgba(105, 185, 157, 0.32);
+}
+.container--one .main-box .left-box .search-box .location-box .search-btn button {
+  background-color: #69B99D;
+  border: none;
+  width: 57px;
+  height: 24px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.0025em;
+  color: #FFFFFF;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.container--one .main-box .right-box {
+  position: relative;
+  width: 807px;
+  z-index: 0;
+  height: 761px;
+}
+.container--one .main-box .right-box img {
+  position: absolute;
+  width: 806px;
+  height: 761px;
+  bottom: 120px;
+  right: 0px;
+  bottom: 82px;
+  mix-blend-mode: normal;
+  z-index: 0;
+}
 
 * {
   padding: 0;
@@ -139,7 +451,5 @@ body {
 
 .main--container {
   max-width: 1440px;
-  border: 1px solid;
   margin: auto;
-  height: 100vh;
 }/*# sourceMappingURL=style.css.map */
