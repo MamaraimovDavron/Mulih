@@ -647,7 +647,7 @@
   background-color: #F5F5F5;
   height: 954px;
   width: 100%;
-  padding: 124px;
+  padding: 50px 140px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -693,12 +693,42 @@
   grid-template-columns: repeat(3, 1fr);
   place-self: center;
   gap: 32px;
+  padding-bottom: 50px;
 }
 .container--three .grid .grid-item {
   width: 376px;
   height: 268px;
   padding: 20px;
-  background-color: #69B99D;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container--three .grid .grid-item a {
+  font-size: 50px;
+  color: #69B99D;
+}
+.container--three .grid .grid-item h2 {
+  height: 38px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  /* identical to box height, or 136% */
+  letter-spacing: 0.5px;
+  color: #054457;
+}
+.container--three .grid .grid-item p {
+  width: 336px;
+  height: 104px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  letter-spacing: 0.5px;
+  color: #73788C;
 }
 
 * {
